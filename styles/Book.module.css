@@ -1,0 +1,40 @@
+.main {
+  /* @apply h-screen flex-grow */
+  font-family: "Poppins";
+}
+.info {
+  @apply bg-[url('/eventbg.png')] w-full flex p-12 px-28 bg-no-repeat bg-cover;
+}
+
+.texts {
+  @apply text-white m-0 w-2/3 mb-4;
+}
+
+.field {
+  @apply flex justify-center items-center w-full bg-gray-100 py-6 border-b-2;
+}
+.fieldElement {
+  @apply flex items-center;
+}
+.container {
+  @apply flex flex-col md:flex-row m-5 md:m-10 justify-center items-start;
+}
+/* left */
+.left {
+  @apply w-full;
+}
+
+.seats {
+  @apply flex gap-2 flex-wrap items-center justify-center;
+}
+
+/* right */
+.right {
+  @apply flex flex-col gap-2 md:gap-3 md:ml-10 mt-4 md:mt-0 md:w-96 border-2 p-5 rounded;
+}
+.input {
+  @apply border-2 py-2 px-3 rounded focus:border-black outline-none;
+}
+.btn {
+  @apply bg-[#0E2129] border-2 border-[#0E2129] text-white md:text-base text-center px-6 py-2 rounded transition-all cursor-pointer hover:border-2 hover:border-[#0E2129] hover:bg-white hover:text-[#0E2129];
+}

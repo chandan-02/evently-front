@@ -1,0 +1,21 @@
+.container {
+  padding: 0;
+  /* @apply h-screen */
+}
+.main {
+  background-image: url("../public/classical.jpg");
+  /* font-family: 'Poppins'; */
+  @apply flex justify-center h-96 items-center cursor-pointer transition-all font-bold w-full;
+}
+
+.maintext {
+  @apply text-white text-xl text-center px-10 font-black bg-black/50 h-full w-full flex justify-center items-center md:text-4xl;
+}
+
+.events {
+  @apply flex justify-center items-center flex-col mb-10;
+}
+
+.eventstext {
+  @apply transition-all text-xl font-black md:text-3xl text-transparent bg-clip-text text-black font-bold;
+}
